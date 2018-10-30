@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { GroupComponent } from './toolbar/group/group.component';
+import { ItemComponent } from './toolbar/group/item/item.component';
+import {CanvasComponent} from './canvas/canvas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    CanvasComponent,
+    GroupComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,
