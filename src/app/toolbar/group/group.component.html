@@ -1,0 +1,8 @@
+<div class="group {{group.type}}">
+    <div class="items" >
+        <app-item [groupItem]="groupItem" *ngFor="let groupItem of items"></app-item>
+    </div>
+   <div class="bottom">
+      <div>{{group.label}}</div>
+   </div>
+</div>

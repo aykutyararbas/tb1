@@ -1,0 +1,19 @@
+.item {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.item:hover {
+  background-color: #ece9d7;
+  cursor: pointer;
+}
+
+.item i {
+  color: #696969;
+}
+
+.item#add {
+  float: right;
+}

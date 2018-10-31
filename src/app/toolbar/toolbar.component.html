@@ -1,0 +1,5 @@
+<div class="toolbar">
+ <div *ngFor="let group of groups" class="tool {{group.type}}">
+    <app-group [group]="group"></app-group>
+ </div>
+</div>
